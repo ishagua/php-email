@@ -18,7 +18,7 @@ pear install mail_mime
     #允许远程访问 json/text 文件
 
     location ~* \.(json|txt)$ {
-	add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Origin *;
     }
 
     #配置php
