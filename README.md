@@ -1,4 +1,4 @@
-# PHP-Email
+### 安装nginx和php
 
 apt update
 
@@ -12,12 +12,16 @@ pear install net_smtp
 
 pear install mail_mime
 
-## 允许远程访问 json/text 文件
+### 配置 nginx.conf
+
+
+    #允许远程访问 json/text 文件
 
     location ~* \.(json|txt)$ {
 	add_header Access-Control-Allow-Origin *;
     }
 
+    #配置php
 
     location ~ \.php$ {
         root           /home/wwwroot/doc-root;
