@@ -6,10 +6,10 @@
 	header("content-Type: text/html; charset=Utf-8"); 
 
 	$name = "xxxxx";	 							//网站名称
-	$url = "www.xxx.com";								//网站地址
+	$url = "xxx.com";								//网站地址
 	
 	$email = "admin@xxx.com";							//邮箱地址
-	$pwd = "passed"; 								//邮箱密码
+	$pwd = "passwd"; 								//邮箱密码
 
 	$smtpinfo = array();     
 	$smtpinfo["host"] = "ssl://smtp.gmail.com";					//SMTP服务器 
