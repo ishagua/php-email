@@ -23,9 +23,9 @@
 	$contentType = "text/html; charset=utf-8"; 					//邮件正文类型，格式和编码
 	$crlf = "\n"; 									//换行符号 Linux: \n Windows: \r\n 
 
-	$no = rand(1000,9999);
+	$no = rand(2000,9999);
 
-	$subject = $name."，邮件通知：$no"; 	 				 
+	$subject = "$name-通知：$no"; 	 				 
 	$content = "<font size='4'><br />您好，</font><br /> <br />
 	<font color=Red size='4'>内容第一行 </font><br /> <br /> 
 	<font color=Red size='4'>内容第二行</font><br /> <br />
